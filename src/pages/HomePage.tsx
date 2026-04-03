@@ -11,7 +11,7 @@ function HomePage() {
       return;
     }
 
-    navigate(`certificates/${encodeURIComponent(trimmedId)}`);
+    navigate(`/certificates/${encodeURIComponent(trimmedId)}`);
   };
 
   return (
